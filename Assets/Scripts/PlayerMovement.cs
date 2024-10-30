@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float groundDrag;
 
+    public Transform orientation;
+
     
 
     [Header("Ground Check")]
@@ -14,8 +17,19 @@ public class PlayerMovement : MonoBehaviour
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
+   
+   [Header("Crouch Control")]
 
-    public Transform orientation;
+    public float crouchSpeed;
+
+    public float crouchYScale;
+
+    private float startYScale;
+
+    [Header("Keybinds")]
+
+    public KeyCode crouchKey = KeyCode.C;
+
 
     float horizontalInput;
     float verticalInput;
@@ -24,10 +38,18 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
+    public MovementState state;
+    public enum MovementState
+    {
+        crouching
+    }
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        startYScale = transform.localScale.y;
     }
 
     private void Update()
@@ -36,13 +58,26 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
         MyInput();
         SpeedControl();
+        StateHandler();
 
-        // Handle drag
+        //Handle drag
 
-        /*if(grounded)
+        if(grounded)
             rb.linearDamping = groundDrag;
         else 
-            rb.linearDamping = 0;*/
+            rb.linearDamping = 0;
+            
+        
+
+    }
+
+    private void StateHandler()
+    {
+        if(Input.GetKey(crouchKey))
+        {
+            state = MovementState.crouching;
+            moveSpeed = crouchSpeed;
+        }
     }
 
     private void FixedUpdate()
@@ -54,6 +89,21 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+
+
+        //start crouch
+
+        if(Input.GetKeyDown(crouchKey))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
+            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+        }
+
+        //stop crouch
+        if(Input.GetKeyUp(crouchKey))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
+        }
     }
 
     private void MovePlayer()
