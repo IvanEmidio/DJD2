@@ -15,7 +15,7 @@ C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49978
+53655
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10192]  Target information:
+Player connection [24036]  Target information:
 
-Player connection [10192]  * "[IP] 172.19.77.91 [Port] 0 [Flags] 2 [Guid] 2320243958 [EditorId] 2320243958 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR2VEV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24036]  * "[IP] 172.19.77.91 [Port] 0 [Flags] 2 [Guid] 2632003908 [EditorId] 2632003908 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR2VEV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10192] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10192] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24036] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24036] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.21f1 (e2bacb8dee3a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003522 seconds.
-- Loaded All Assemblies, in  0.435 seconds
+Registered in 0.003346 seconds.
+- Loaded All Assemblies, in  0.452 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.413 seconds
-Domain Reload Profiling: 845ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1034ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (132ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (151ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (159ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (413ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (585ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (361ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (17ms)
 			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -137,501 +137,161 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.139 seconds
-Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.467 seconds
+Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 9.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.13 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.036 seconds
-Domain Reload Profiling: 2171ms
-	BeginReloadAssembly (442ms)
+- Finished resetting the current domain, in  1.149 seconds
+Domain Reload Profiling: 2601ms
+	BeginReloadAssembly (597ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (588ms)
-		LoadAssemblies (372ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (763ms)
+		LoadAssemblies (561ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (325ms)
-			TypeCache.Refresh (239ms)
-				TypeCache.ScanAssembly (213ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1037ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (202ms)
+			BuildScriptInfoCaches (84ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1149ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (782ms)
+		SetupLoadedEditorAssemblies (896ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (187ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4833 unused Assets / (1.8 MB). Loaded Objects now: 5394.
-Memory consumption went from 117.0 MB to 115.2 MB.
-Total: 16.260000 ms (FindLiveObjects: 0.803800 ms CreateObjectMapping: 1.140200 ms MarkObjects: 12.314700 ms  DeleteObjects: 1.997700 ms)
+Unloading 4833 unused Assets / (1.2 MB). Loaded Objects now: 5395.
+Memory consumption went from 117.0 MB to 115.8 MB.
+Total: 13.735700 ms (FindLiveObjects: 0.890000 ms CreateObjectMapping: 0.912500 ms MarkObjects: 9.659300 ms  DeleteObjects: 2.269900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 406.483958 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbc302f1e5fcee9b6d9c07f893ee428d') in 0.1227196 seconds
+  Time since last request: 11318.190391 seconds.
+  path: Assets/Art/Models/Workshop_Counter.fbx
+  artifactKey: Guid(ef6f7cbc77df1bc4797e00ad1e9e6115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Workshop_Counter.fbx using Guid(ef6f7cbc77df1bc4797e00ad1e9e6115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f95f15b0ea3b845e9a56651b1f10ef75') in 0.1487805 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.498882 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca4e9466e4255dc25af54904c75fda10') in 0.0283111 seconds
+  Time since last request: 8.132996 seconds.
+  path: Assets/Art/Models/Workshop_Counter.fbx
+  artifactKey: Guid(ef6f7cbc77df1bc4797e00ad1e9e6115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Workshop_Counter.fbx using Guid(ef6f7cbc77df1bc4797e00ad1e9e6115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bde67d7d3b39d1c55a90e48ba46dc54') in 0.0399075 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.923897 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5923574318a35e15ab603000519f2edf') in 0.022165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.234041 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76bb62ecc26fe4db96a53b6e03087bb5') in 0.023144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.374606 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f708e9ff0f456dd046cef437d1577c7') in 0.0541808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 736.740741 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49c61a5e20635eadc2c10ca7339df94b') in 0.0246209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.418000 seconds.
-  path: Assets/Art/Models/Laundry_Counter.fbx
-  artifactKey: Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter.fbx using Guid(7bd1535550045e64589a24730e39e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5297f15a3fc6a7ddaaeb34e4c35ab701') in 0.0210709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 651.583031 seconds.
-  path: Assets/Art/Textures/Laundry_Counter_1.png
-  artifactKey: Guid(aed6ca15c758fa24d9228a7153c0de9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/Laundry_Counter_1.png using Guid(aed6ca15c758fa24d9228a7153c0de9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c1824829de59253d51bbbb391f9b898') in 0.0184492 seconds
+  Time since last request: 294.531533 seconds.
+  path: Assets/Art/Materials/Closet 1.mat
+  artifactKey: Guid(7381b451648d5204e9a9c992cb70aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Closet 1.mat using Guid(7381b451648d5204e9a9c992cb70aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5464abc1cd256d0885d1b317baf29f') in 0.015551 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.549044 seconds.
-  path: Assets/Art/Textures/Laundry_Counter.png
-  artifactKey: Guid(aed6ca15c758fa24d9228a7153c0de9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/Laundry_Counter.png using Guid(aed6ca15c758fa24d9228a7153c0de9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13a79a397e33fc6d3a116ed4ce50883a') in 0.0113004 seconds
+  Time since last request: 10.431939 seconds.
+  path: Assets/Art/Materials/Workshop_Counter.mat
+  artifactKey: Guid(7381b451648d5204e9a9c992cb70aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Workshop_Counter.mat using Guid(7381b451648d5204e9a9c992cb70aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5ef96e88f0eda72874675695893914b') in 0.0126196 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.739956 seconds.
-  path: Assets/Art/Materials/Laundry_Counter.mat
-  artifactKey: Guid(9f2e59eeb576b3143b397177b324dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Laundry_Counter.mat using Guid(9f2e59eeb576b3143b397177b324dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0da2e6fb9c8852af0cffd4fb56e3e7e9') in 0.0123599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.526572 seconds.
-  path: Assets/Art/Materials/Laundry_Counter.mat
-  artifactKey: Guid(9f2e59eeb576b3143b397177b324dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Laundry_Counter.mat using Guid(9f2e59eeb576b3143b397177b324dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad1e7dce3279c31831a19319a908856') in 0.0171909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.367 seconds
-Refreshing native plugins compatible for Editor in 6.16 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.472 seconds
-Domain Reload Profiling: 2838ms
-	BeginReloadAssembly (380ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (116ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (896ms)
-		LoadAssemblies (736ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (291ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (256ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1473ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1141ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (186ms)
-			ProcessInitializeOnLoadAttributes (703ms)
-			ProcessInitializeOnLoadMethodAttributes (228ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4831 unused Assets / (1.0 MB). Loaded Objects now: 5440.
-Memory consumption went from 115.5 MB to 114.5 MB.
-Total: 16.575900 ms (FindLiveObjects: 0.748200 ms CreateObjectMapping: 0.817800 ms MarkObjects: 13.233500 ms  DeleteObjects: 1.773600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 7.05 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.345 seconds
-Domain Reload Profiling: 2126ms
-	BeginReloadAssembly (210ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (480ms)
-		LoadAssemblies (375ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (184ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1345ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1005ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (637ms)
-			ProcessInitializeOnLoadMethodAttributes (212ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 6.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4831 unused Assets / (1.1 MB). Loaded Objects now: 5440.
-Memory consumption went from 115.5 MB to 114.4 MB.
-Total: 16.112900 ms (FindLiveObjects: 0.969900 ms CreateObjectMapping: 1.465000 ms MarkObjects: 11.331700 ms  DeleteObjects: 2.344300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.948 seconds
-Refreshing native plugins compatible for Editor in 11.07 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.136 seconds
-Domain Reload Profiling: 3079ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (595ms)
-		LoadAssemblies (410ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (289ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2136ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1560ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (25ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (969ms)
-			ProcessInitializeOnLoadMethodAttributes (339ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4831 unused Assets / (1.0 MB). Loaded Objects now: 5440.
-Memory consumption went from 115.5 MB to 114.5 MB.
-Total: 18.414700 ms (FindLiveObjects: 0.839500 ms CreateObjectMapping: 0.541400 ms MarkObjects: 14.860900 ms  DeleteObjects: 2.170800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1748.752583 seconds.
-  path: Assets/Art/Models/Laundry_Counter_Door.fbx
-  artifactKey: Guid(27fbd83f48f96de48964f80e2a990f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter_Door.fbx using Guid(27fbd83f48f96de48964f80e2a990f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f4df4be1185db65b87d9fa9732f34f1') in 0.1418641 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.608126 seconds.
-  path: Assets/Art/Models/Laundry_Counter_Door.fbx
-  artifactKey: Guid(27fbd83f48f96de48964f80e2a990f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Laundry_Counter_Door.fbx using Guid(27fbd83f48f96de48964f80e2a990f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ea090e4f5b6406cab3bbf6cf721af47') in 0.0588814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 332.432807 seconds.
-  path: Assets/Art/Materials/Laundry_Counter 1.mat
-  artifactKey: Guid(556142efd66d0ed4480e90dbaeb79db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Laundry_Counter 1.mat using Guid(556142efd66d0ed4480e90dbaeb79db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b775110268f57f1a5e75e3587d9749cb') in 0.0166536 seconds
+  Time since last request: 3.823298 seconds.
+  path: Assets/Art/Textures/Workshop_Counter.png
+  artifactKey: Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshop_Counter.png using Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68bfdd945350f7ca321eff49fb4a70d') in 0.0206879 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.998839 seconds.
-  path: Assets/Art/Materials/Laundry_Counter_Door.mat
-  artifactKey: Guid(556142efd66d0ed4480e90dbaeb79db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Laundry_Counter_Door.mat using Guid(556142efd66d0ed4480e90dbaeb79db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '733dd77951c42bbd56a64d875ecc6600') in 0.0163622 seconds
+  Time since last request: 35.583827 seconds.
+  path: Assets/Art/Textures/Workshop_Counter.png
+  artifactKey: Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshop_Counter.png using Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3e70c4c385d0efa1418db4edef73ed1') in 0.0100374 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.474119 seconds.
-  path: Assets/Art/Textures/Laundry_Counter_Door.png
-  artifactKey: Guid(4b14166af30175640a0a45fa6fbb8a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/Laundry_Counter_Door.png using Guid(4b14166af30175640a0a45fa6fbb8a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4a02638a92bbd8ec9b7ea8a7100e0fe') in 0.0195216 seconds
+  Time since last request: 82.678604 seconds.
+  path: Assets/Art/Textures/Workshop_Counter.png
+  artifactKey: Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshop_Counter.png using Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be51a1baf19edfd776d347205d007077') in 0.0088728 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.001243 seconds.
-  path: Assets/Art/Materials/Lamp.mat
-  artifactKey: Guid(a3a1e4dd37f62384fa32ae4881bad332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Lamp.mat using Guid(a3a1e4dd37f62384fa32ae4881bad332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f853b4007417221076423733eea45626') in 0.0306718 seconds
+  Time since last request: 43.254507 seconds.
+  path: Assets/Art/Textures/Workshop_Counter.png
+  artifactKey: Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshop_Counter.png using Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1a01f2bd11a684e6b35ae9cfaa0c865') in 0.0091661 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Art/Materials/Paint_Can_1 1.mat
-  artifactKey: Guid(a699c29351b02e3428f7c000f7e84a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Paint_Can_1 1.mat using Guid(a699c29351b02e3428f7c000f7e84a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df34f16cc9ebce0b22f3e9ae079ef8fe') in 0.0144787 seconds
+  Time since last request: 50.369658 seconds.
+  path: Assets/Art/Textures/Workshop_Counter.png
+  artifactKey: Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshop_Counter.png using Guid(0c4564952808200459ee687b8a133015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7c2c065827b479e4811749a96d55f4f') in 0.0105794 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.574321 seconds.
-  path: Assets/Art/Materials/Paint_Can_2.mat
-  artifactKey: Guid(a699c29351b02e3428f7c000f7e84a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Paint_Can_2.mat using Guid(a699c29351b02e3428f7c000f7e84a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '151720d99d6d462ea1c2842b8bd1d5d1') in 0.0257371 seconds
+  Time since last request: 326.788719 seconds.
+  path: Assets/Art/Textures/Workshp_Counter.png
+  artifactKey: Guid(d8d5f42a69fc8b847a7a98351ded9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshp_Counter.png using Guid(d8d5f42a69fc8b847a7a98351ded9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '280b15b021b553979b32a8a27ee7d344') in 0.0154126 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.799661 seconds.
-  path: Assets/Art/Textures/Paint_Can_2.png
-  artifactKey: Guid(d01fbc300188b704da54e904ed18fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/Paint_Can_2.png using Guid(d01fbc300188b704da54e904ed18fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d49e8b803691bfa67a230ded350631d') in 0.0110917 seconds
+  Time since last request: 10.807364 seconds.
+  path: Assets/Scenes/Map/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(42d8dcdcefe2b40429a7a815b7775beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map/Lightmap-0_comp_shadowmask.png using Guid(42d8dcdcefe2b40429a7a815b7775beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fffbafa6e4f84d3ca214c90b1da4332f') in 0.0129701 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.557071 seconds.
-  path: Assets/Scenes/Map/ReflectionProbe-0.exr
-  artifactKey: Guid(1a99cddb61f544f4980cc3e667795176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map/ReflectionProbe-0.exr using Guid(1a99cddb61f544f4980cc3e667795176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5ddfa939300d5c0220942ed64ea3d4') in 0.0287295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.461544 seconds.
-  path: Assets/Art/Materials/Paint_Can_2.mat
-  artifactKey: Guid(a699c29351b02e3428f7c000f7e84a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Paint_Can_2.mat using Guid(a699c29351b02e3428f7c000f7e84a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '927a4366b9ee3d79ee241f569f430fbb') in 0.0096976 seconds
+  Time since last request: 80.569690 seconds.
+  path: Assets/Art/Textures/Workshp_Counter.png
+  artifactKey: Guid(d8d5f42a69fc8b847a7a98351ded9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Workshp_Counter.png using Guid(d8d5f42a69fc8b847a7a98351ded9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c85e4abd6ee914c044423a969c097d') in 0.0103266 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1589.725688 seconds.
-  path: Assets/Art/Materials/Folded_Newspaper.mat
-  artifactKey: Guid(e5f8c5af138b9464aa1b82275341244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Folded_Newspaper.mat using Guid(e5f8c5af138b9464aa1b82275341244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95726bf06bb069142be1eef51be1b7be') in 0.0164786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.826771 seconds.
-  path: Assets/Art/Textures/Folded_Newspaper.png
-  artifactKey: Guid(7d99faa1b3383f8478136d742d516ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/Folded_Newspaper.png using Guid(7d99faa1b3383f8478136d742d516ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '922ba8cec264cc070040229cdf9c261f') in 0.0095671 seconds
+  Time since last request: 134.887132 seconds.
+  path: Assets/Art/Materials/Dollhouse.mat
+  artifactKey: Guid(fe1bf05bdf771b749aaaced5784c0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Dollhouse.mat using Guid(fe1bf05bdf771b749aaaced5784c0371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9116bd0cbd3757e54bcffdf29b448d4') in 0.0141365 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.534085 seconds.
-  path: Assets/Art/Models/Folded_Newspaper.fbx
-  artifactKey: Guid(c55dd02fd0a9a4148bb9c383fd228266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Folded_Newspaper.fbx using Guid(c55dd02fd0a9a4148bb9c383fd228266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb730ad3f9a08a46b51bdd87596097c3') in 0.0251339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 258.704398 seconds.
+  path: Assets/Art/Materials/Workshop_Counter.mat
+  artifactKey: Guid(7381b451648d5204e9a9c992cb70aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Workshop_Counter.mat using Guid(7381b451648d5204e9a9c992cb70aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48bb88be8a7e815c0c3ab969e5bac1ca') in 0.0196771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
-========================================================================
-Received Import Request.
-  Time since last request: 15.534653 seconds.
-  path: Assets/Art/Models/Folded_Newspaper.fbx
-  artifactKey: Guid(c55dd02fd0a9a4148bb9c383fd228266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Folded_Newspaper.fbx using Guid(c55dd02fd0a9a4148bb9c383fd228266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e710f8fb06dc9e2a0e961cd92d3d8f96') in 0.0271252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.270353 seconds.
-  path: Assets/Art/Materials/Folded_Newspaper.mat
-  artifactKey: Guid(e5f8c5af138b9464aa1b82275341244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Folded_Newspaper.mat using Guid(e5f8c5af138b9464aa1b82275341244a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30df391e6fe2c3a8d8385eb9f4eb8185') in 0.0213062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 952.530859 seconds.
-  path: Assets/Art/Models/Floor.fbx
-  artifactKey: Guid(12407e644719417479152e48fa0a2e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Floor.fbx using Guid(12407e644719417479152e48fa0a2e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af0073c5a11639a6dd3a7c29c442c9b') in 0.0333427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.017191 seconds.
-  path: Assets/Art/Models/Floor.fbx
-  artifactKey: Guid(12407e644719417479152e48fa0a2e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Floor.fbx using Guid(12407e644719417479152e48fa0a2e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b03400720ef885923c4fdb8dc346e799') in 0.0275345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.750134 seconds.
-  path: Assets/Art/Textures/Floor.png
-  artifactKey: Guid(7e1b4cea50de1eb4cb14fa083508b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/Floor.png using Guid(7e1b4cea50de1eb4cb14fa083508b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '927304a37fd1771e4dbff84668349939') in 0.0149187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.368113 seconds.
-  path: Assets/Art/Materials/Floor.mat
-  artifactKey: Guid(8f989ff7a8b83af4ebac56ac85f90fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Floor.mat using Guid(8f989ff7a8b83af4ebac56ac85f90fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768cbd1e5cac6d0280d193b5c1695b0d') in 0.0135898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.436967 seconds.
-  path: Assets/Art/Materials/Floor.mat
-  artifactKey: Guid(8f989ff7a8b83af4ebac56ac85f90fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Floor.mat using Guid(8f989ff7a8b83af4ebac56ac85f90fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2eb2f012d3d972fcae897a76a6bbaac') in 0.0090219 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.038 seconds
-Refreshing native plugins compatible for Editor in 8.04 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.781 seconds
-Domain Reload Profiling: 3820ms
-	BeginReloadAssembly (657ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (309ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (1273ms)
-		LoadAssemblies (1065ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (367ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (320ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1783ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1332ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (798ms)
-			ProcessInitializeOnLoadMethodAttributes (390ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4831 unused Assets / (0.9 MB). Loaded Objects now: 5442.
-Memory consumption went from 115.7 MB to 114.8 MB.
-Total: 20.063200 ms (FindLiveObjects: 0.697900 ms CreateObjectMapping: 1.371500 ms MarkObjects: 15.299500 ms  DeleteObjects: 2.691900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
