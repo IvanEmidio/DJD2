@@ -15,7 +15,7 @@ C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53503
+50734
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7688]  Target information:
+Player connection [30168]  Target information:
 
-Player connection [7688]  * "[IP] 172.19.62.158 [Port] 0 [Flags] 2 [Guid] 2515177907 [EditorId] 2515177907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR2VEV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30168]  * "[IP] 172.19.62.158 [Port] 0 [Flags] 2 [Guid] 590781091 [EditorId] 590781091 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR2VEV8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7688] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7688] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30168] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30168] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.21f1 (e2bacb8dee3a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.21f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.21f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.21f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.21f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.21f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003948 seconds.
-- Loaded All Assemblies, in  0.451 seconds
+Registered in 0.002688 seconds.
+- Loaded All Assemblies, in  0.448 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.421 seconds
-Domain Reload Profiling: 869ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 914ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (147ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (153ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (421ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (469ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (412ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -137,85 +137,210 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.240 seconds
-Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.197 seconds
+Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 9.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.44 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.052 seconds
-Domain Reload Profiling: 2285ms
-	BeginReloadAssembly (479ms)
+- Finished resetting the current domain, in  1.017 seconds
+Domain Reload Profiling: 2208ms
+	BeginReloadAssembly (475ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (654ms)
-		LoadAssemblies (435ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (453ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (330ms)
-			TypeCache.Refresh (242ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (78ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1052ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1017ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (739ms)
+		SetupLoadedEditorAssemblies (766ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (479ms)
-			ProcessInitializeOnLoadMethodAttributes (156ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4833 unused Assets / (1.6 MB). Loaded Objects now: 5395.
-Memory consumption went from 117.0 MB to 115.4 MB.
-Total: 14.245500 ms (FindLiveObjects: 0.663500 ms CreateObjectMapping: 0.386300 ms MarkObjects: 11.173300 ms  DeleteObjects: 2.019900 ms)
+Unloading 4833 unused Assets / (1.4 MB). Loaded Objects now: 5395.
+Memory consumption went from 115.0 MB to 113.6 MB.
+Total: 18.383500 ms (FindLiveObjects: 0.664800 ms CreateObjectMapping: 0.979700 ms MarkObjects: 14.198400 ms  DeleteObjects: 2.536900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 605435.541106 seconds.
-  path: Assets/Scenes/MainEvent.unity
-  artifactKey: Guid(8e3ceb768b0c6214f85a289b64ac1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainEvent.unity using Guid(8e3ceb768b0c6214f85a289b64ac1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89c838a5920e6e2ec18c1b9debd8d9d') in 0.0066548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 611790.246771 seconds.
+  path: Assets/Art/Models/Wooden_Cabinet.fbx
+  artifactKey: Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Wooden_Cabinet.fbx using Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cff3e9ea506a0e6a78577932e5bff10') in 0.1369603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 393.583322 seconds.
-  path: Assets/Scenes/MainEvent.unity
-  artifactKey: Guid(8e3ceb768b0c6214f85a289b64ac1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainEvent.unity using Guid(8e3ceb768b0c6214f85a289b64ac1540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '025847eae8ef8eac6b72360780941a6f') in 0.0007691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 3.328129 seconds.
+  path: Assets/Art/Models/Wooden_Cabinet.fbx
+  artifactKey: Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Wooden_Cabinet.fbx using Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a0f11dfd5a56c7400dd34add81c011') in 0.0321066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.703066 seconds.
-  path: Assets/Scenes/MainEvent/LightingData.asset
-  artifactKey: Guid(6783d39f987aaf84e9e78ec9538909f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainEvent/LightingData.asset using Guid(6783d39f987aaf84e9e78ec9538909f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39620bbda95faffc82ab18c3e38f8d7a') in 0.0192538 seconds
+  Time since last request: 421.648424 seconds.
+  path: Assets/Art/Textures/WoodenCabinet.png
+  artifactKey: Guid(e372cb3d9fc4d924a94dc43305a8be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/WoodenCabinet.png using Guid(e372cb3d9fc4d924a94dc43305a8be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6348bd14028b4156712160da0a042e') in 0.0198495 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Scenes/MainEvent/ReflectionProbe-0.exr
-  artifactKey: Guid(fe2fc18a8274e9c4a829685c3a93ec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainEvent/ReflectionProbe-0.exr using Guid(fe2fc18a8274e9c4a829685c3a93ec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272d82b5356dfd03a795661e6ba63d3a') in 0.0915626 seconds
+  Time since last request: 9.260245 seconds.
+  path: Assets/Art/Models/Wooden_Cabinet.fbx
+  artifactKey: Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Wooden_Cabinet.fbx using Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '921deefb8c419731d18385d4fa64d3bd') in 0.0230183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.292496 seconds.
+  path: Assets/Art/Models/Wooden_Cabinet.fbx
+  artifactKey: Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Wooden_Cabinet.fbx using Guid(b471b5a193841c64493a40c65cffdf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7acb5de67678f9c3bb52dcabddb177e8') in 0.0132141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.930081 seconds.
+  path: Assets/Art/Materials/WoodenCabinet.mat
+  artifactKey: Guid(e5ded191ccbd86b4ca4d4df86e28ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/WoodenCabinet.mat using Guid(e5ded191ccbd86b4ca4d4df86e28ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '625d49340e03f34d865c1459ed977ca7') in 0.0122475 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.545824 seconds.
+  path: Assets/Scenes/MainEvent/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b8be3951340634349a994f3e1166b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainEvent/Lightmap-0_comp_shadowmask.png using Guid(b8be3951340634349a994f3e1166b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '792170998446e42cb906fe1cac1e24df') in 0.0183673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.624039 seconds.
+  path: Assets/Art/Materials/WoodenCabinet.mat
+  artifactKey: Guid(e5ded191ccbd86b4ca4d4df86e28ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/WoodenCabinet.mat using Guid(e5ded191ccbd86b4ca4d4df86e28ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af75b9c9e2ea8423405a9ad99cbc85cd') in 0.0100224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 982.388623 seconds.
+  path: Assets/Art/Models/Wooden_Door.fbx
+  artifactKey: Guid(2e2c0ab3b2d89ed43a62a6c8f58eae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Wooden_Door.fbx using Guid(2e2c0ab3b2d89ed43a62a6c8f58eae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3a3f31c262e79263578bf3b636ffa7') in 0.0358217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.549421 seconds.
+  path: Assets/Art/Models/Wooden_Door.fbx
+  artifactKey: Guid(2e2c0ab3b2d89ed43a62a6c8f58eae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Wooden_Door.fbx using Guid(2e2c0ab3b2d89ed43a62a6c8f58eae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8399ea9787e850632cbe1e78c9b0fd4a') in 0.0355239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.970716 seconds.
+  path: Assets/Art/Textures/WoodenDoor.png
+  artifactKey: Guid(4bd579ffc66336640935d8221c618718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/WoodenDoor.png using Guid(4bd579ffc66336640935d8221c618718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2862b881968dacfa341f1ec3dc7c424f') in 0.0115719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.400455 seconds.
+  path: Assets/Art/Materials/WoodenDoor.mat
+  artifactKey: Guid(b44ddb260c042104a9cd9038baad303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/WoodenDoor.mat using Guid(b44ddb260c042104a9cd9038baad303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7bb6b23a212cf49fee30eee4ffc1f85') in 0.0121456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.678937 seconds.
+  path: Assets/Scenes/MainEvent/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b8be3951340634349a994f3e1166b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainEvent/Lightmap-0_comp_shadowmask.png using Guid(b8be3951340634349a994f3e1166b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b7830fb558da4dfb27f70a015f94fe') in 0.0096988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.732513 seconds.
+  path: Assets/Art/Materials/WoodenDoor.mat
+  artifactKey: Guid(b44ddb260c042104a9cd9038baad303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/WoodenDoor.mat using Guid(b44ddb260c042104a9cd9038baad303f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b95eef24fd88e344a91fdeb8bb7336a') in 0.0085325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.330 seconds
+Refreshing native plugins compatible for Editor in 9.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.544 seconds
+Domain Reload Profiling: 2872ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (844ms)
+		LoadAssemblies (650ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (310ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1545ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1083ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (648ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 9.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4831 unused Assets / (1.3 MB). Loaded Objects now: 5441.
+Memory consumption went from 113.6 MB to 112.3 MB.
+Total: 21.274700 ms (FindLiveObjects: 0.749300 ms CreateObjectMapping: 1.204400 ms MarkObjects: 17.267100 ms  DeleteObjects: 2.051600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
