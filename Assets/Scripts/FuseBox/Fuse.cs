@@ -1,23 +1,23 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using System;
 
 public class Fuse : MonoBehaviour
 {
-    [SerializeField] private State _state;
+    private bool _state = false; 
 
-    public State state
+    public void SetFuseState(bool state)
     {
-        get { return _state; }
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+        _state = state;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        
+        _state = !_state;
+        Debug.Log($"{gameObject.name} was clicked! fuseValue is now {_state}");
+    }
+
+    public bool GetFuseBool()
+    {
+        return _state;
     }
 }
