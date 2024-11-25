@@ -431,6 +431,7 @@
 "Assets/Scripts/FuseBox/Fuse.cs"
 "Assets/Scripts/FuseBox/FuseManager.cs"
 "Assets/Scripts/FuseBox/LightsManager.cs"
+"Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/MoveCamera.cs"
 "Assets/Scripts/PickUpClass.cs"
 "Assets/Scripts/PlayerCam.cs"
