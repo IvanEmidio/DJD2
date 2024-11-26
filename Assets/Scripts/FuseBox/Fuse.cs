@@ -13,7 +13,6 @@ public class Fuse : MonoBehaviour
     private void OnMouseDown()
     {
         _state = !_state;
-        Debug.Log($"{gameObject.name} was clicked! fuseValue is now {_state}");
     }
 
     public bool GetFuseBool()

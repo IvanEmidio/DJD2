@@ -2403,13 +2403,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 338223666}
+  - component: {fileID: 338223667}
   m_Layer: 0
   m_Name: Garage_Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &338223666
 Transform:
   m_ObjectHideFlags: 0
@@ -2427,6 +2428,19 @@ Transform:
   - {fileID: 1284449144}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &338223667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338223665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdac24de92e1d3e4f85c9dc8a0cb9d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuseManager: {fileID: 1682407162}
 --- !u!1 &344623515
 GameObject:
   m_ObjectHideFlags: 0
@@ -9535,7 +9549,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &605118614
 Transform:
   m_ObjectHideFlags: 0
@@ -16442,7 +16456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1284449144
 Transform:
   m_ObjectHideFlags: 0

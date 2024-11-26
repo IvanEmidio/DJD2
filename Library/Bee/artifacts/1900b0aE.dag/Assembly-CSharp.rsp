@@ -430,6 +430,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/FuseBox/Fuse.cs"
 "Assets/Scripts/FuseBox/FuseManager.cs"
+"Assets/Scripts/FuseBox/GarageLightsManager.cs"
 "Assets/Scripts/FuseBox/LightsManager.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/MoveCamera.cs"
