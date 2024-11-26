@@ -62,12 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FuseBox\LightsManager.cs" />
+    <Compile Include="Assets\Scripts\Interact.cs" />
     <Compile Include="Assets\Scripts\PickUpClass.cs" />
+    <Compile Include="Assets\Scripts\CarInteraction.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\FuseBox\Fuse.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\InteractiveSystem.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\FuseBox\FuseManager.cs" />
     <Compile Include="Assets\Scripts\FuseBox\GarageLightsManager.cs" />
   </ItemGroup>
