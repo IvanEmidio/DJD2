@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/jonit/Desktop/DJD2/DJD2/Packages/manifest.json
+    m_FilePath: C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638680734115884983
+      ticks: 638681764635309500
     m_Hash: 1773631461
   m_LockFileStatus:
-    m_FilePath: C:/Users/jonit/Desktop/DJD2/DJD2/Packages/packages-lock.json
+    m_FilePath: C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638680734115894990
+      ticks: 638681764635309500
     m_Hash: 2557481336
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/jonit/Desktop/DJD2/DJD2/Packages
+m_ProjectPath: C:/Users/c0lega/Desktop/Uni/DJD2_2/DJD2/Packages
 m_EditorVersion: 6000.0.21f1 (e2bacb8dee3a)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.2d.sprite
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.2d.sprite
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -97,7 +97,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.2d.tilemap
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.2d.tilemap
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -184,7 +184,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.ads
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.ads
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -193,7 +193,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "Connect your game to the Unity Ads Network for iOS and Android to
     quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces
     with ironSource and recommends using Unity LevelPlay for ad mediation (instead
@@ -204,10 +204,59 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.7
+    - 2.0.8
+    - 2.3.1
+    - 2.3.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.1
+    - 3.2.0
+    - 3.3.0
+    - 3.3.1
+    - 3.4.0
+    - 3.4.1
+    - 3.4.2
+    - 3.4.4
+    - 3.4.5
+    - 3.4.7
+    - 3.4.9
+    - 3.5.0
+    - 3.5.2
+    - 3.6.1
+    - 3.7.0
+    - 3.7.1
+    - 3.7.3
+    - 3.7.5
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.1
+    - 4.3.0
+    - 4.4.1
     - 4.4.2
+    - 4.12.0
     compatible:
     - 4.4.2
-    recommended: 
+    - 4.12.0
+    recommended: 4.12.0
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -232,9 +281,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638161229410000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
   hasRepository: 1
   repository:
@@ -253,10 +302,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"gameService":{"groupIndex":4,"groupName":"Monetization","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Ads"},"supportedPlatforms":["Android","iOS"],"changelog":"##
-    **Unity**\n - Remove redirect pop-ups directing users to Unity Mediation.\n##
-    **Android**\n### **Bugfix**\n- Fixed a NullPointerException when Application
-    Context is null for cached directory file path."}'
+  upmReserved: '{"changelog":"## **Unity**\n - Remove redirect pop-ups directing
+    users to Unity Mediation.\n## **Android**\n### **Bugfix**\n- Fixed a NullPointerException
+    when Application Context is null for cached directory file path.","gameService":{"groupName":"Monetization","groupIndex":4,"configurePath":"Project/Services/Ads","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
   assetStore:
     productId: 
   fingerprint: a7b997f68a1d40387ca4d33fc75578709c140a37
@@ -269,7 +317,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.4
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.ai.navigation
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.ai.navigation
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -287,10 +335,26 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.0.3
     - 2.0.4
+    - 2.0.5
     compatible:
     - 2.0.4
-    recommended: 2.0.4
+    - 2.0.5
+    recommended: 2.0.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -327,9 +391,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638605675584270000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -362,7 +426,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.analytics
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.analytics
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -371,40 +435,77 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics Library contains the Analytics Event Tracker component,
     the Data Privacy plug-in, and the Standard Events API.
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.19
+    - 2.0.5
+    - 2.0.11
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 3.0.5
+    - 3.0.9
+    - 3.1.1
+    - 3.2.0
+    - 3.2.2
+    - 3.2.3
+    - 3.3.0
+    - 3.3.2-preview
+    - 3.3.2
+    - 3.3.4
+    - 3.3.5
+    - 3.4.0
+    - 3.5.3
+    - 3.6.11
+    - 3.6.12
+    - 3.7.1
     - 3.8.1
     compatible:
     - 3.8.1
     recommended: 3.8.1
     deprecated: []
   dependencies:
-  - name: com.unity.services.analytics
-    version: 1.0.4
   - name: com.unity.ugui
     version: 1.0.0
-  resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 6.0.1
+    version: 1.0.4
+  resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+  - name: com.unity.services.analytics
+    version: 6.0.1
   - name: com.unity.services.core
     version: 1.13.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords:
   - analytics
@@ -419,9 +520,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637789683740000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -453,7 +554,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.5.2
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.collab-proxy
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.collab-proxy
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -611,7 +712,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.feature.development
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.feature.development
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -712,7 +813,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.ide.rider
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -721,17 +822,61 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    - 3.0.26
+    - 3.0.27
+    - 3.0.28
     - 3.0.31
+    - 3.0.34
     compatible:
     - 3.0.31
-    recommended: 3.0.31
+    - 3.0.34
+    recommended: 3.0.34
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -750,9 +895,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638548308080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -787,7 +932,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.ide.visualstudio
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.ide.visualstudio
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -796,13 +941,36 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
+    - 2.0.20
+    - 2.0.21
     - 2.0.22
     compatible:
     - 2.0.22
@@ -831,9 +999,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -870,7 +1038,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.11.0
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.inputsystem
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.inputsystem
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -885,10 +1053,62 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.0
     - 1.11.0
+    - 1.11.1
+    - 1.11.2
     compatible:
     - 1.11.0
-    recommended: 1.11.0
+    - 1.11.1
+    - 1.11.2
+    recommended: 1.11.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -923,9 +1143,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638616525750940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html
   hasRepository: 1
   repository:
@@ -977,7 +1197,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.multiplayer.center
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -993,6 +1213,12 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.1
+    - 0.3.0
+    - 0.4.0
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
     - 1.0.0
     compatible:
     - 1.0.0
@@ -1061,7 +1287,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.12.2
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.purchasing
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.purchasing
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1070,7 +1296,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing
     + the Asset Store plugin) versions 2.x to version 3.x, complete the following
     actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json
@@ -1092,22 +1318,91 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.18
+    - 0.0.19
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 4.0.0
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 4.2.0-pre.1
+    - 4.2.0-pre.2
+    - 4.2.1
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    - 4.5.2
+    - 4.6.0
+    - 4.7.0
+    - 4.8.0
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    - 4.10.0
+    - 4.11.0
+    - 4.12.0
+    - 4.12.1-pre.1
+    - 4.12.1-pre.3
+    - 4.12.1-pre.4
+    - 4.12.1
     - 4.12.2
+    - 5.0.0-pre.1
     compatible:
     - 4.12.2
+    - 5.0.0-pre.1
     recommended: 4.12.2
     deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.services.core
+    version: 1.12.5
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.12.5
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -1115,16 +1410,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.13.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.13.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.1
   keywords:
   - purchasing
   - iap
@@ -1139,9 +1434,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638568999980000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.12/manual/index.html
   hasRepository: 1
   repository:
@@ -1160,10 +1455,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"gameService":{"groupIndex":4,"groupName":"Monetize","configurePath":"Project/Services/In-App
-    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"],"changelog":"###
-    Fixed\n- GooglePlay - Fixed `Product.receipt`''s `price_amount_micros` returning
-    a string instead of a long."}'
+  upmReserved: '{"changelog":"### Fixed\n- GooglePlay - Fixed `Product.receipt`''s
+    `price_amount_micros` returning a string instead of a long.","gameService":{"groupName":"Monetize","groupIndex":4,"configurePath":"Project/Services/In-App
+    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
   assetStore:
     productId: 
   fingerprint: 649c6c7b3b1b6277839041f4987c0a1e66176678
@@ -1176,7 +1470,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.5
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.test-framework
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1185,14 +1479,70 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: assets
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
     all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
     - 1.4.5
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.4.5
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     recommended: 1.4.5
     deprecated: []
   dependencies:
@@ -1222,9 +1572,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638575054880000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
@@ -1283,7 +1633,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.timeline
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.timeline
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1292,30 +1642,115 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
   versions:
     all:
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
+    - 1.2.12
+    - 1.2.13
+    - 1.2.14
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17
+    - 1.2.18
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.5
+    - 1.4.0-preview.6
+    - 1.4.0-preview.7
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.5.0-pre.2
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.1-pre.1
+    - 1.5.1-pre.2
+    - 1.5.1-pre.3
+    - 1.5.2
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.7.5
+    - 1.7.6
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
     - 1.8.7
     compatible:
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1337,9 +1772,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638524833900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
@@ -1381,7 +1816,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.ugui
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.ugui
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1399,8 +1834,14 @@ m_ResolvedPackages:
   versions:
     all:
     - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     recommended: 2.0.0
     deprecated: []
   dependencies:
@@ -1467,7 +1908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.visualscripting
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.visualscripting
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1492,11 +1933,34 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
+    - 1.7.8
+    - 1.8.0-pre.1
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
     - 1.9.4
+    - 1.9.5
     compatible:
     - 1.9.4
-    recommended: 1.9.4
-    deprecated: []
+    - 1.9.5
+    recommended: 1.9.5
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1522,9 +1986,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638488567680000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1557,7 +2021,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.10
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.xr.legacyinputhelpers
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.xr.legacyinputhelpers
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1566,7 +2030,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: 
+  type: asset
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -1576,10 +2040,36 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
     - 2.1.10
+    - 2.1.11
     compatible:
     - 2.1.10
-    recommended: 2.1.10
+    - 2.1.11
+    recommended: 2.1.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -1613,9 +2103,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637958908030000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1650,7 +2140,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1717,7 +2207,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1784,7 +2274,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1850,7 +2340,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1917,7 +2407,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1984,7 +2474,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2051,7 +2541,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2122,7 +2612,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.director
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2197,7 +2687,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2264,7 +2754,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2331,7 +2821,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2398,7 +2888,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2465,7 +2955,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2532,7 +3022,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2599,7 +3089,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2670,7 +3160,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2737,7 +3227,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2812,7 +3302,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2882,7 +3372,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2949,7 +3439,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3032,7 +3522,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3099,7 +3589,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3173,7 +3663,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3240,7 +3730,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3315,7 +3805,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3390,7 +3880,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3465,7 +3955,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3556,7 +4046,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3627,7 +4117,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.video
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3706,7 +4196,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3787,7 +4277,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3854,7 +4344,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3933,7 +4423,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4004,7 +4494,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4071,7 +4561,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.ext.nunit
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4080,12 +4570,21 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: assets
   description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
     version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
     - 2.0.5
     compatible:
     - 2.0.5
@@ -4107,9 +4606,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638236642220000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4141,7 +4640,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.13.0
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.services.core
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.services.core
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4150,7 +4649,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -4159,24 +4658,53 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
     - 1.13.0
     compatible:
     - 1.13.0
     recommended: 1.13.0
     deprecated: []
   dependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords: []
   registry:
@@ -4189,9 +4717,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638542134710000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.13/manual/index.html
   hasRepository: 1
   repository:
@@ -4224,7 +4752,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.editorcoroutines
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.editorcoroutines
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4233,13 +4761,19 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
   errors: []
   versions:
     all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
     - 1.0.0
     compatible:
     - 1.0.0
@@ -4261,9 +4795,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637232611380000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4295,7 +4829,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.performance.profile-analyzer
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.performance.profile-analyzer
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4304,7 +4838,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -4313,6 +4847,19 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.4.0-preview.3
+    - 0.4.0-preview.5
+    - 0.4.0-preview.6
+    - 0.5.0-preview.1
+    - 0.6.0-preview.1
+    - 0.7.0-preview.4
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.0-pre.2
+    - 1.1.0
+    - 1.1.1
     - 1.2.2
     compatible:
     - 1.2.2
@@ -4331,9 +4878,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638108624620000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
@@ -4366,7 +4913,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.testtools.codecoverage
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.testtools.codecoverage
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4375,7 +4922,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4383,6 +4930,37 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.4.2-preview
+    - 0.4.3-preview
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-exp.1
+    - 1.2.0-exp.2
+    - 1.2.0-exp.3
+    - 1.2.0-exp.4
+    - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
     - 1.2.6
     compatible:
     - 1.2.6
@@ -4419,9 +4997,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638575857900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
@@ -4458,7 +5036,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.0.1
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.services.analytics
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.services.analytics
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -4467,7 +5045,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics package automatically collects core events and
     user properties when someone uses your game or application, and enables you to
     track specific in-game actions your user performs by defining custom events.
@@ -4477,18 +5055,44 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 2.0.7-pre.4
+    - 2.0.7-pre.6
+    - 2.0.7-pre.7
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
+    - 4.4.2
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
     - 6.0.1
+    - 6.0.2
     compatible:
     - 6.0.1
-    recommended: 6.0.1
+    - 6.0.2
+    recommended: 6.0.2
     deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.services.core
     version: 1.12.4
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -4496,15 +5100,15 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.services.core
     version: 1.13.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
   registry:
@@ -4517,9 +5121,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638587935530000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4538,16 +5142,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"gameService":{"genericDashboardUrl":"https://dashboard.unity3d.com/analytics","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Analytics
-    - Gaming Services"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
-    8.1 Universal","Windows 10 Universal","WebGL"],"changelog":"### Added\n\n* New
-    Analytics Debug Panel accessible in the Unity Editor from Services -> Analytics
-    -> Debug Panel\n  * Monitor the SDK''s activity while you play-test\n  * Observe
-    events as they are recorded and uploaded\n  * ... and more!\n\n### Breaking Changes\n\n*
-    The minimum supported editor version for the UGS Analytics SDK is now 2021.3\n*
-    All methods, classes and structs marked as `Obsolete` in earlier versions of
-    the SDK have been removed\n  * If you have trouble upgrading, move to 5.1.0 first,
-    fix the deprecation warnings there, then move to 6.0.0"}'
+  upmReserved: '{"changelog":"### Added\n\n* New Analytics Debug Panel accessible
+    in the Unity Editor from Services -> Analytics -> Debug Panel\n  * Monitor the
+    SDK''s activity while you play-test\n  * Observe events as they are recorded
+    and uploaded\n  * ... and more!\n\n### Breaking Changes\n\n* The minimum supported
+    editor version for the UGS Analytics SDK is now 2021.3\n* All methods, classes
+    and structs marked as `Obsolete` in earlier versions of the SDK have been removed\n 
+    * If you have trouble upgrading, move to 5.1.0 first, fix the deprecation warnings
+    there, then move to 6.0.0","gameService":{"configurePath":"Project/Services/Analytics
+    - Gaming Services","genericDashboardUrl":"https://dashboard.unity3d.com/analytics","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
+    8.1 Universal","Windows 10 Universal","WebGL"]}'
   assetStore:
     productId: 
   fingerprint: f7e249983920dd67eba8952b09e37a6fe4582dd0
@@ -4560,7 +5164,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.nuget.newtonsoft-json
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.nuget.newtonsoft-json
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4583,6 +5187,21 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
     - 3.2.1
     compatible:
     - 3.2.1
@@ -4601,9 +5220,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638186318800000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4636,7 +5255,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\jonit\Desktop\DJD2\DJD2\Library\PackageCache\com.unity.settings-manager
+  resolvedPath: C:\Users\c0lega\Desktop\Uni\DJD2_2\DJD2\Library\PackageCache\com.unity.settings-manager
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4645,12 +5264,19 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
     - 2.0.1
     compatible:
     - 2.0.1
@@ -4669,9 +5295,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637744099390000000
   documentationUrl: 
   hasRepository: 1
   repository:
