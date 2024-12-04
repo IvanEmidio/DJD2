@@ -21,19 +21,8 @@ public class LeverManager : MonoBehaviour
         }
     }
 
-    public bool GetFuseState(int index)
+    public bool GetFuseState()
     {
         return _lever.GetLeverBool();
-    }
-
-    public bool GetPuzzleDone()
-    {
-        if(_fuses[0].GetFuseBool() && !_fuses[1].GetFuseBool() && _fuses[2].GetFuseBool() && !_fuses[3].GetFuseBool())
-        {
-            done = true;
-            return done;
-        }
-            
-        return done;
     }
 }
