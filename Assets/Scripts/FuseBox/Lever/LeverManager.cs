@@ -4,27 +4,26 @@ using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine.UIElements;
 
-public class FuseManager : MonoBehaviour
+public class LeverManager : MonoBehaviour
 {
-    private List<Fuse> _fuses = new List<Fuse>(); // Value to assign to each child
+    private Lever _lever; // Value to assign to each child
     private bool done = false;
 
     void Start()
     {
         foreach (Transform child in transform)
         {
-            Fuse fuse = child.GetComponent<Fuse>();
-            if (fuse != null)
+            Lever lever = child.GetComponent<Lever>();
+            if (lever != null)
             {
-                _fuses.Add(fuse);
+                _lever = lever;
             }
         }
-        print(_fuses.Count);
     }
 
     public bool GetFuseState(int index)
     {
-        return _fuses[index].GetFuseBool();
+        return _lever.GetLeverBool();
     }
 
     public bool GetPuzzleDone()

@@ -19,4 +19,9 @@ public class Fuse : MonoBehaviour
     {
         return _state;
     }
+
+    public void TurnOff()
+    {
+        _state = false;
+    }
 }
