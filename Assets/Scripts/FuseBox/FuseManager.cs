@@ -29,7 +29,12 @@ public class FuseManager : MonoBehaviour
 
     public void GetPuzzleDone()
     {
-        if(_fuses[0].GetFuseBool() && !_fuses[1].GetFuseBool() && _fuses[2].GetFuseBool() && !_fuses[3].GetFuseBool())
+        if( (_fuses[0].GetFuseBool() == true) &&
+            (_fuses[1].GetFuseBool() == false) &&
+            (_fuses[2].GetFuseBool() == true) &&
+            (_fuses[3].GetFuseBool() == true) &&
+            (_fuses[4].GetFuseBool() == false) &&
+            (_fuses[5].GetFuseBool() == true))
         {
             done = true;
         }
