@@ -15,4 +15,9 @@ public class Lever : MonoBehaviour
     {
         return _clicked;
     }
+
+    public void ResetLever()
+    {
+        _clicked = false;
+    }
 }

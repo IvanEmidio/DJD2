@@ -9,7 +9,7 @@ public class GarageLightsManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(fuseManager.GetPuzzleDone())
+        if(fuseManager.GetPuzzleState())
         {
             foreach (Transform child in transform)
             { 

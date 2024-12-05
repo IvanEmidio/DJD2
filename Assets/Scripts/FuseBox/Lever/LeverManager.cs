@@ -1,11 +1,11 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
-using UnityEngine.UIElements;
 
 public class LeverManager : MonoBehaviour
 {
+    [SerializeField]
+    private FuseManager _fuseManager;
     private Lever _lever; // Value to assign to each child
     private bool done = false;
 
@@ -21,8 +21,20 @@ public class LeverManager : MonoBehaviour
         }
     }
 
-    public bool GetFuseState()
+    void Update()
+    {
+        if(_lever.GetLeverBool())
+        {
+            _fuseManager.GetPuzzleDone();
+            if(!_fuseManager.GetPuzzleState())
+            {
+                _lever.ResetLever();
+                _fuseManager.TurnAllOff();
+            }
+        }
+    }
+    /* public bool GetFuseState()
     {
         return _lever.GetLeverBool();
-    }
+    } */
 }

@@ -42,10 +42,23 @@ public class LightsManager : MonoBehaviour
                 currentMaterials[lista[i]] = redMaterial;
             }
         }
-    }
 
-    void Checking()
-    {
-        
+        modelRenderer.materials = currentMaterials;
+
+
+        for (int i = 0; i < 6; i++)
+        {
+            // Check the state of the corresponding fuse
+            if (fuseManager.GetPuzzleState())
+            {
+                // Change the material to green if the fuse is active
+                currentMaterials[lista2[i]] = greenMaterial;
+            }
+            else
+            {
+                // Change the material to red if the fuse is inactive
+                currentMaterials[lista2[i]] = redMaterial;
+            }
+        }
     }
 }
