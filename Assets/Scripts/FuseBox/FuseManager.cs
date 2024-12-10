@@ -13,13 +13,11 @@ public class FuseManager : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            Fuse fuse = child.GetComponent<Fuse>();
-            if (fuse != null)
-            {
-                _fuses.Add(fuse);
-            }
+            PivotScript pivot = child.GetComponent<PivotScript>();
+            _fuses.Add(pivot.GetChild());
         }
-        print(_fuses.Count);
+
+        
     }
 
     public bool GetFuseState(int index)

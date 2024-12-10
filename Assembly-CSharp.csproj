@@ -75,10 +75,12 @@
     <Compile Include="Assets\Scripts\FuseBox\Lever\Lever.cs" />
     <Compile Include="Assets\Scripts\FuseBox\Fuse.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\AnimationManager.cs" />
     <Compile Include="Assets\Scripts\InteractiveSystem.cs" />
     <Compile Include="Assets\Scripts\FuseBox\Lever\LeverManager.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\FuseBox\FuseManager.cs" />
+    <Compile Include="Assets\Scripts\FuseBox\PivotScript.cs" />
     <Compile Include="Assets\Scripts\FuseBox\GarageLightsManager.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1183,6 +1185,10 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="NaughtyAttributes.Editor">
+      <HintPath>Library\ScriptAssemblies\NaughtyAttributes.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1203,6 +1209,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="NaughtyAttributes.Core">
+      <HintPath>Library\ScriptAssemblies\NaughtyAttributes.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
       <Private>False</Private>
@@ -1217,6 +1227,10 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NaughtyAttributes.Test">
+      <HintPath>Library\ScriptAssemblies\NaughtyAttributes.Test.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
