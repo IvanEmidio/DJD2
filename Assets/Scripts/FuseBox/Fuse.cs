@@ -35,6 +35,11 @@ public class Fuse : MonoBehaviour
 
     public void TurnOff()
     {
+        if(_state)
+        {
+            _animator.PlayAnimation("TurnOff");
+        }
         _state = false;
+        
     }
 }

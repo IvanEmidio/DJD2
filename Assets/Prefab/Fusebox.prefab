@@ -65,7 +65,6 @@ GameObject:
   - component: {fileID: 7563083978852641896}
   - component: {fileID: 7059500375511691082}
   - component: {fileID: 1527913621943583666}
-  - component: {fileID: 5823876797584832147}
   m_Layer: 0
   m_Name: Fuse_2
   m_TagString: Untagged
@@ -210,19 +209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimator: 0
---- !u!114 &5823876797584832147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657815997661945866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03977b121cc44114096a0fb46796b45b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimator: 0
 --- !u!1 &1047074188312493646
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +224,6 @@ GameObject:
   - component: {fileID: 2132314854835877694}
   - component: {fileID: 4030124215286121258}
   - component: {fileID: 8033684995488390149}
-  - component: {fileID: 7493555366159668376}
   m_Layer: 0
   m_Name: Fuse_3
   m_TagString: Untagged
@@ -371,19 +356,6 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 2405599350618394242, guid: 16d28baa43027da4d81fa55dc6099938, type: 3}
 --- !u!114 &8033684995488390149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047074188312493646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03977b121cc44114096a0fb46796b45b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimator: 0
---- !u!114 &7493555366159668376
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -696,7 +668,6 @@ GameObject:
   - component: {fileID: 2161489825149050125}
   - component: {fileID: 6621967288168227180}
   - component: {fileID: 4500027164091381154}
-  - component: {fileID: 6359724662645049318}
   m_Layer: 0
   m_Name: Fuse_5
   m_TagString: Untagged
@@ -841,19 +812,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimator: 0
---- !u!114 &6359724662645049318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5325173064359791983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03977b121cc44114096a0fb46796b45b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimator: 0
 --- !u!1 &5481937100323863868
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +827,6 @@ GameObject:
   - component: {fileID: 6885118134685851195}
   - component: {fileID: 2379645420870564262}
   - component: {fileID: 6595587143128435672}
-  - component: {fileID: 8023946311491194624}
   m_Layer: 0
   m_Name: Fuse_6
   m_TagString: Untagged
@@ -1002,19 +959,6 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: -7729229989446161760, guid: 16d28baa43027da4d81fa55dc6099938, type: 3}
 --- !u!114 &6595587143128435672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5481937100323863868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03977b121cc44114096a0fb46796b45b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimator: 0
---- !u!114 &8023946311491194624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1246,7 +1190,6 @@ GameObject:
   - component: {fileID: 6645007377282215426}
   - component: {fileID: 3323455737490052564}
   - component: {fileID: 6706619125479099020}
-  - component: {fileID: 7833205280359799768}
   m_Layer: 0
   m_Name: Fuse_4
   m_TagString: Untagged
@@ -1391,19 +1334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimator: 0
---- !u!114 &7833205280359799768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6436778314386450205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03977b121cc44114096a0fb46796b45b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimator: 0
 --- !u!1 &6682751985660965538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,7 +1417,6 @@ GameObject:
   - component: {fileID: 6089014307749625787}
   - component: {fileID: 1980544352857476991}
   - component: {fileID: 742486150242413433}
-  - component: {fileID: 3270634128091874998}
   m_Layer: 0
   m_Name: Fuse_1
   m_TagString: Untagged
@@ -1620,19 +1549,6 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 7861146171483060207, guid: 16d28baa43027da4d81fa55dc6099938, type: 3}
 --- !u!114 &742486150242413433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8655936751655369539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03977b121cc44114096a0fb46796b45b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimator: 0
---- !u!114 &3270634128091874998
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
