@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Door : Interactable
+public class InteractionOverall : Interactable
 {
     [SerializeField] private Animator anim;
 
