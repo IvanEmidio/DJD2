@@ -10,48 +10,51 @@ public class CarInteraction : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) // Left mouse button click
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out RaycastHit hitInfo))
+            if(Camera.main != null)
             {
-                // Check if the clicked object is this car
-                if (hitInfo.collider.gameObject == gameObject)
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+                if (Physics.Raycast(ray, out RaycastHit hitInfo))
                 {
-                    Debug.Log("Car clicked!");
-
-                    if (hand.childCount > 0)
+                    // Check if the clicked object is this car
+                    if (hitInfo.collider.gameObject == gameObject)
                     {
-                        Transform heldItem = null;
+                        Debug.Log("Car clicked!");
 
-                        // Iterate through the children of the hand and find the correct item
-                        foreach (Transform child in hand)
+                        if (hand.childCount > 0)
                         {
-                            if (child.name != "cube" && child.CompareTag(requiredItemTag))
+                            Transform heldItem = null;
+
+                            // Iterate through the children of the hand and find the correct item
+                            foreach (Transform child in hand)
                             {
-                                heldItem = child;
-                                break;
+                                if (child.name != "cube" && child.CompareTag(requiredItemTag))
+                                {
+                                    heldItem = child;
+                                    break;
+                                }
                             }
-                        }
 
-                        if (heldItem != null)
-                        {
-                            Debug.Log($"Holding correct object: {heldItem.name}");
-
-                            // Remove the held item and activate the object
-                            Destroy(heldItem.gameObject);
-                            if (objectToActivate != null)
+                            if (heldItem != null)
                             {
-                                objectToActivate.SetActive(true);
+                                Debug.Log($"Holding correct object: {heldItem.name}");
+
+                                // Remove the held item and activate the object
+                                Destroy(heldItem.gameObject);
+                                if (objectToActivate != null)
+                                {
+                                    objectToActivate.SetActive(true);
+                                }
+                            }
+                            else
+                            {
+                                Debug.Log("No correct item held, or only 'cube' is in hand.");
                             }
                         }
                         else
                         {
-                            Debug.Log("No correct item held, or only 'cube' is in hand.");
+                            Debug.Log("No object is being held.");
                         }
-                    }
-                    else
-                    {
-                        Debug.Log("No object is being held.");
                     }
                 }
             }

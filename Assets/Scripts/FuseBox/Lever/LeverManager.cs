@@ -7,7 +7,6 @@ public class LeverManager : MonoBehaviour
     [SerializeField]
     private FuseManager _fuseManager;
     private Lever _lever; // Value to assign to each child
-    private bool done = false;
 
     void Start()
     {
