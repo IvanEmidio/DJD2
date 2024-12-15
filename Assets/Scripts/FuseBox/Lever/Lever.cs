@@ -4,11 +4,20 @@ using System;
 public class Lever : MonoBehaviour
 {
     private bool _clicked = false; 
+    private AnimationManager _animator;
 
+    void Start()
+    {
+        _animator = GetComponent<AnimationManager>();
+    }
 
     private void OnMouseDown()
     {
-        _clicked = !_clicked;
+        if(!_clicked)
+        {
+            _clicked = !_clicked;
+            _animator.PlayAnimation("TurnOn");
+        }
     }
 
     public bool GetLeverBool()
@@ -19,5 +28,6 @@ public class Lever : MonoBehaviour
     public void ResetLever()
     {
         _clicked = false;
+        _animator.PlayAnimation("TurnOff");
     }
 }

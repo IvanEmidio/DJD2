@@ -14,7 +14,7 @@ public class FuseManager : MonoBehaviour
         foreach (Transform child in transform)
         {
             PivotScript pivot = child.GetComponent<PivotScript>();
-            _fuses.Add(pivot.GetChild());
+            _fuses.Add(pivot.GetChild(typeof(Fuse)) as Fuse);
         }
 
         

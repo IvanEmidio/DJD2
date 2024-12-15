@@ -12,10 +12,10 @@ public class LeverManager : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            Lever lever = child.GetComponent<Lever>();
-            if (lever != null)
+            PivotScript pivot = child.GetComponent<PivotScript>();
+            if (pivot != null)
             {
-                _lever = lever;
+                _lever = pivot.GetChild(typeof(Lever)) as Lever;
             }
         }
     }
