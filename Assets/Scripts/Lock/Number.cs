@@ -24,7 +24,7 @@ public class Number : MonoBehaviour
         {
             _number++;
         }
-        print(_number);
+        _animator.PlayAnimation(""+_number);
     }
 
     public byte GetNumber()
@@ -34,11 +34,23 @@ public class Number : MonoBehaviour
 
     public void Reset()
     {
-        _number = 0;
-    }
-
-    void Update()
-    {
-        _animator.PlayAnimation(""+_number);
+        if(_number < 5)
+            while(_number != 0)
+            {
+                _number--;
+                _animator.PlayAnimation(""+_number);
+            }
+        else{
+            while(_number != 0)
+            {
+                _number++;
+                if(_number == 10)
+                {
+                    _number = 0;
+                }
+                _animator.PlayAnimation(""+_number);
+                
+            }
+        }
     }
 }

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 public class LockManager : MonoBehaviour
 {
+    [SerializeField] private InteractionOverall _interactable;
+    [SerializeField]private List<byte> _code = new List<byte>(4) {1, 2, 3, 4};
     private AltCamera _camera;
     private List<Number> _numbers = new List<Number>();
-    private List<byte> _code = new List<byte>() {1, 2, 3, 4};
+    
     void Start()
     {
         _camera = GetComponent<AltCamera>();
@@ -31,6 +33,11 @@ public class LockManager : MonoBehaviour
     private void OnMouseDown()
     {
         _camera.ActivateCamera();
+        for (int i = 0; i < 4; i++)
+        {
+            _numbers[i].Reset();
+            
+        }
     }
 
     void Update() 
@@ -39,11 +46,7 @@ public class LockManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
             _camera.DeactivateCamera();
-            for (int i = 0; i < 4; i++)
-        {
-            _numbers[i].Reset();
             
-        }
         }
 
         int temp = 0;
@@ -53,6 +56,10 @@ public class LockManager : MonoBehaviour
             {
                 temp++;
             }
+        }
+        if(temp == 4)
+        {
+            _interactable.IsComplete();
         }
     }
 }
