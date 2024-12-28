@@ -25,15 +25,6 @@ public class Number : MonoBehaviour
             _number++;
         }
         print(_number);
-
-        /* if(_state)
-        {
-            _animator.PlayAnimation("TurnOn");
-        }
-        else
-        {
-            _animator.PlayAnimation("TurnOff");
-        } */
     }
 
     public byte GetNumber()
@@ -41,13 +32,13 @@ public class Number : MonoBehaviour
         return _number;
     }
 
-    /* public void TurnOff()
+    public void Reset()
     {
-        if(_state)
-        {
-            _animator.PlayAnimation("TurnOff");
-        }
-        _state = false;
-        
-    } */
+        _number = 0;
+    }
+
+    void Update()
+    {
+        _animator.PlayAnimation(""+_number);
+    }
 }

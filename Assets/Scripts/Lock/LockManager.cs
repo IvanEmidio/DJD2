@@ -1,15 +1,33 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class LockManager : MonoBehaviour
 {
     private AltCamera _camera;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private List<Number> _numbers = new List<Number>();
+    private List<byte> _code = new List<byte>() {1, 2, 3, 4};
     void Start()
     {
         _camera = GetComponent<AltCamera>();
+        for (int i = 1; i <=  4; i++)
+        {
+            GameObject objs = GameObject.Find("Wheel_" + i);
+
+            if (objs != null)
+            {
+                Number obj = objs.GetComponent<Number>();
+                if (obj != null)
+                {
+                    _numbers.Add(obj);
+                }
+            }
+        }
+
+        //Inverter os objetos que ninguém é de ferro, porque por algum motivo
+        // o 4 é o primeiro e o 1 o último
+        _numbers.Reverse();
     }
 
-    // Update is called once per frame
     private void OnMouseDown()
     {
         _camera.ActivateCamera();
@@ -21,6 +39,20 @@ public class LockManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
             _camera.DeactivateCamera();
-        } 
+            for (int i = 0; i < 4; i++)
+        {
+            _numbers[i].Reset();
+            
+        }
+        }
+
+        int temp = 0;
+        for (int i = 0; i < 4; i++)
+        {
+            if(_numbers[i].GetNumber() == _code[i])
+            {
+                temp++;
+            }
+        }
     }
 }
