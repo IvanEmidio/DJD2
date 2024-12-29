@@ -14,17 +14,35 @@ public class Number : MonoBehaviour
         _number = number;
     }
 
-    private void OnMouseDown()
+    private void OnMouseOver()
     {
-        if(_number == 9)
+        if (Input.GetMouseButtonDown(0))
         {
-            _number = 0;
+            if(_number == 9)
+            {
+                _number = 0;
+            }
+            else
+            {
+                _number++;
+            }
+            _animator.PlayAnimation(""+_number);
         }
-        else
+        if (Input.GetMouseButtonDown(1)) // 1 = Right mouse button
         {
-            _number++;
+            if(_number == 0)
+            {
+                _number = 9;
+            }
+            else
+            {
+                _number--;
+            }
+            _animator.PlayAnimation(""+_number);
         }
-        _animator.PlayAnimation(""+_number);
+        
+        
+        
     }
 
     public byte GetNumber()
