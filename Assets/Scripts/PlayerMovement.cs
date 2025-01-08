@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
+    [SerializeField]AudioSource audfootsteps;
     public float moveSpeed;
 
     public float groundDrag;
@@ -46,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        audfootsteps = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
@@ -87,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MyInput()
     {
+        
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -108,19 +111,35 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
+        
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        if (moveDirection!= new Vector3(0,0,0))
+            {
+                if (!audfootsteps.isPlaying)
+                audfootsteps.Play();
+            }
+            if(moveDirection==new Vector3(0,0,0))
+            {
+                audfootsteps.Stop();
+            }
+        
     }
 
     private void SpeedControl()
     {
+        
         Vector3 flatVel = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
 
         if(flatVel.magnitude > moveSpeed)
         {
+            
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.linearVelocity = new Vector3(limitedVel.x, rb.linearVelocity.y, limitedVel.z);
+            
+            
+            
 
         }
     }
