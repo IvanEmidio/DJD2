@@ -11,7 +11,7 @@ public class InteractDoor : Interactable
 
     public override void Interact()
     {
-        Debug.Log("abcd");
+        //Debug.Log("abcd");
         anim.SetTrigger("Advanced");
     }
 

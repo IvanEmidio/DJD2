@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class PlayerCam : MonoBehaviour
 {
-   public float senX;
-   public float senY;
+    public float senX;
+    public float senY;
 
-   public Transform orientation;
+    public Transform orientation;
 
-   float xRotation;
-   float yRotation;
-  private CameraManager cameraManager;
+    float xRotation;
+    float yRotation;
+    private CameraManager cameraManager;
 
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        cameraManager = GetComponent<CameraManager>();
+      Cursor.lockState = CursorLockMode.Locked;
+      Cursor.visible = false;
+      cameraManager = GetComponent<CameraManager>();
     }
    private void Update()
    {
