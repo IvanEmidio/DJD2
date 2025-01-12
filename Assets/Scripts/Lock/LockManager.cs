@@ -60,12 +60,12 @@ public class LockManager : MonoBehaviour
     {
         _camera.ActivateCamera();
         _light.SetActive(true);    //Para ajudar a ver
-        _shaderManager.ChangeEmissionValue(0,true, _originalColor);
+        _shaderManager.NotNeon();
         print(_numbersShaders.Count);
         for (int i = 0; i < 4; i++)
         {
             print(i);
-            _numbersShaders[i].ChangeEmissionValue(0, true, _originalColor);
+            _numbersShaders[i].NotNeon();
         }
 
 
@@ -82,10 +82,10 @@ public class LockManager : MonoBehaviour
         {
             _camera.DeactivateCamera();
             _light.SetActive(false);
-            _shaderManager.ChangeEmissionValue(0,false, _originalColor);
+            _shaderManager.Neon();
             for (int i = 0; i < 4; i++)
             {
-                _numbersShaders[i].ChangeEmissionValue(0, false, _originalColor);
+                _numbersShaders[i].Neon();
             }
             
         }

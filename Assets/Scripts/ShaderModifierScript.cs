@@ -2,32 +2,35 @@ using UnityEngine;
 
 public class ShaderModifierScript : MonoBehaviour
 {
-    public void ChangeEmissionValue(int index, bool on, Color color)
+    [SerializeField] private Material _originalMaterial; // The original material
+    [SerializeField] private Material _newMaterial;      // The new material to switch to
+    private Renderer objectRenderer;                   // The Renderer of the GameObject
+
+    void Start()
     {
-        Renderer renderer = GetComponent<Renderer>();
+        // Get the Renderer component
+        objectRenderer = GetComponent<Renderer>();
 
-        if (renderer != null)
+        // Set the material to the originalMaterial at the start if provided
+        if (objectRenderer != null && _originalMaterial != null)
         {
-            Material[] materials = renderer.materials;
+            objectRenderer.material = _newMaterial;
+        }
+    }
 
-            if (index >= 0 && index < materials.Length)
-            {
-                Material material = materials[index];
+    public void NotNeon()
+    {
+        if (objectRenderer != null && _newMaterial != null)
+        {
+            objectRenderer.material = _newMaterial;
+        }
+    }
 
-                if (material.HasProperty("_EmissionColor"))
-                {
-                    // Set the emission color to black (stops the glow)
-                    if(on)
-                    {
-                        material.SetColor("_EmissionColor", Color.black);
-                    }
-                    else
-                    {
-                        material.SetColor("_EmissionColor", color);
-                    }
-                    
-                }
-            }
+    public void Neon()
+    {
+        if (objectRenderer != null && _originalMaterial != null)
+        {
+            objectRenderer.material = _originalMaterial;
         }
     }
 }

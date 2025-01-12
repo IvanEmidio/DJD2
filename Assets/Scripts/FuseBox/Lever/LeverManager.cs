@@ -6,6 +6,8 @@ public class LeverManager : MonoBehaviour
 {
     [SerializeField]
     private FuseManager _fuseManager;
+    [SerializeField]
+    private ShaderModifierScript _shaderManager;
     private Lever _lever; // Value to assign to each child
 
     void Start()
@@ -29,6 +31,11 @@ public class LeverManager : MonoBehaviour
             {
                 _lever.ResetLever();
                 _fuseManager.TurnAllOff();
+            }
+            else
+            {
+                print("Inside");
+                _shaderManager.NotNeon();
             }
         }
     }

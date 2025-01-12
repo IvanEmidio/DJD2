@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 
 public class FuseManager : MonoBehaviour
 {
+    [SerializeField] private List<ShaderModifierScript> _leverShaders;
     private List<Fuse> _fuses = new List<Fuse>(); // Value to assign to each child
     private bool done = false;
 
@@ -35,6 +36,10 @@ public class FuseManager : MonoBehaviour
             (_fuses[5].GetFuseBool() == true))
         {
             done = true;
+            foreach(ShaderModifierScript lever in _leverShaders)
+            {
+                lever.NotNeon();
+            }
         }
     }
 
