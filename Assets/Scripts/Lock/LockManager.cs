@@ -7,11 +7,12 @@ public class LockManager : MonoBehaviour
     [SerializeField]private List<byte> _code = new List<byte>(4) {1, 2, 3, 4};
     [SerializeField]private GameObject _light;
     [SerializeField]private ShaderModifierScript _shaderManager;
+    [SerializeField] private List<ShaderModifierScript> _numberShaders;
     private AltCamera _camera;
     private List<Number> _numbers = new List<Number>();
-    private List<ShaderModifierScript> _numbersShaders = new List<ShaderModifierScript>();
     private Color _originalColor;
     private Renderer _renderer;
+    private int temp = 0;
     
     void Start()
     {
@@ -26,12 +27,6 @@ public class LockManager : MonoBehaviour
                 if (objnumber != null)
                 {
                     _numbers.Add(objnumber);
-                }
-
-                ShaderModifierScript objshader = objs.GetComponent<ShaderModifierScript>();
-                if (objshader != null)
-                {
-                    _numbersShaders.Add(objshader);
                 }
             }
         }
@@ -61,11 +56,9 @@ public class LockManager : MonoBehaviour
         _camera.ActivateCamera();
         _light.SetActive(true);    //Para ajudar a ver
         _shaderManager.NotNeon();
-        print(_numbersShaders.Count);
-        for (int i = 0; i < 4; i++)
+        foreach(ShaderModifierScript lever in _numberShaders)
         {
-            print(i);
-            _numbersShaders[i].NotNeon();
+            lever.NotNeon();
         }
 
 
@@ -83,14 +76,14 @@ public class LockManager : MonoBehaviour
             _camera.DeactivateCamera();
             _light.SetActive(false);
             _shaderManager.Neon();
-            for (int i = 0; i < 4; i++)
+            foreach(ShaderModifierScript lever in _numberShaders)
             {
-                _numbersShaders[i].Neon();
+                lever.Neon();
             }
             
         }
 
-        int temp = 0;
+        
         for (int i = 0; i < 4; i++)
         {
             if(_numbers[i].GetNumber() == _code[i]) //Verifica se o numero é igual ao código
@@ -100,7 +93,17 @@ public class LockManager : MonoBehaviour
         }
         if(temp == 4) //Se a variável temporária tiver a 4 então todos os números estão corretos
         {
+            print("done");
             _interactable.IsComplete();
+            _shaderManager.NotNeon();
+            foreach(ShaderModifierScript lever in _numberShaders)
+            {
+                lever.NotNeon();
+            }
+        }
+        else
+        {
+            temp = 0;
         }
     }
 }

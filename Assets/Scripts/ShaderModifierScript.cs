@@ -10,12 +10,6 @@ public class ShaderModifierScript : MonoBehaviour
     {
         // Get the Renderer component
         objectRenderer = GetComponent<Renderer>();
-
-        // Set the material to the originalMaterial at the start if provided
-        if (objectRenderer != null && _originalMaterial != null)
-        {
-            objectRenderer.material = _newMaterial;
-        }
     }
 
     public void NotNeon()

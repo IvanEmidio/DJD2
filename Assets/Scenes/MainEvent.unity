@@ -11700,6 +11700,11 @@ MonoBehaviour:
   _code: 01010707
   _light: {fileID: 1451287028}
   _shaderManager: {fileID: 536086347}
+  _numberShaders:
+  - {fileID: 2074902784}
+  - {fileID: 2029283308}
+  - {fileID: 1316744267}
+  - {fileID: 2074902783}
 --- !u!114 &536086342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19630,6 +19635,7 @@ MonoBehaviour:
   _code: 01080703
   _light: {fileID: 2072670655}
   _shaderManager: {fileID: 735287574}
+  _numberShaders: []
 --- !u!114 &735287576
 MonoBehaviour:
   m_ObjectHideFlags: 0
