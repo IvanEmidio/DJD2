@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Tire
+  - Post1
+  - Post3
+  - Post2
   layers:
   - Default
   - TransparentFX
