@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class Number : MonoBehaviour
 {
-    private byte _number = 0; 
+    private int _number; 
     private AnimationManager _animator;
 
     void Start()
     {
         _animator = GetComponent<AnimationManager>();
+        _number = 0;
     }
-    public void SetNumber(byte number)
+    public void SetNumber(int number)
     {
         _number = number;
     }
@@ -45,7 +46,7 @@ public class Number : MonoBehaviour
         
     }
 
-    public byte GetNumber()
+    public int GetNumber()
     {
         return _number;
     }
@@ -53,12 +54,15 @@ public class Number : MonoBehaviour
     public void Reset()
     {
         if(_number < 5)
+        {
             while(_number != 0)
             {
                 _number--;
                 _animator.PlayAnimation(""+_number);
             }
-        else{
+        }
+        else
+        {
             while(_number != 0)
             {
                 _number++;
@@ -67,7 +71,6 @@ public class Number : MonoBehaviour
                     _number = 0;
                 }
                 _animator.PlayAnimation(""+_number);
-                
             }
         }
     }
