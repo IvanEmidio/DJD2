@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField]AudioSource audfootsteps;
+    [SerializeField]private CameraManager cameraCheck;
     public float moveSpeed;
 
     public float groundDrag;
@@ -84,7 +85,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MovePlayer();
+        if(cameraCheck._isOnMain)
+            MovePlayer();
     }
 
     private void MyInput()
