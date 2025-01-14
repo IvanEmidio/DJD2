@@ -2022,6 +2022,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4a53180913e8753459f13167acafc072, type: 3}
   m_PrefabInstance: {fileID: 479920907}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &144612828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+  m_PrefabInstance: {fileID: 878450206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &144612829 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+  m_PrefabInstance: {fileID: 878450206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &144612830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144612828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fdcde2a7db28e4cb9eff7fd0721e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &144612831
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144612828}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &144612835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144612828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0018676805, y: 0.006413549, z: 0.0064135455}
+  m_Center: {x: 9.313226e-10, y: 0, z: -2.3283064e-10}
 --- !u!4 &145440382 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a437f122e432c274a9d6edd3f635a6ed, type: 3}
@@ -16870,7 +16940,7 @@ MonoBehaviour:
   _doors:
   - {fileID: 691972558}
   _interactable:
-  - {fileID: 0}
+  - {fileID: 144612830}
   - {fileID: 403692217}
   _code: 01010707
   _light: {fileID: 1451287028}
@@ -17515,7 +17585,7 @@ MonoBehaviour:
     arms at the hospital?\nRemember his laugh? All the nurses and doctors commented
     he had such a joyous laugh.\nWe had him just two years and 3 months after our
     wedding day, do you remember that? His birthday? It\u2019s the code to the lock
-    of the wooden cabinet in the garage. Month and year.\nPlease don\u2019t forget
+    of the laundry cabinet in the garage. Month and year.\nPlease don\u2019t forget
     him, while I\u2019m away. He promised he\u2019d visit you every weekend.\nPlease
     give him and our grandsons many kisses and hugs, remind them grandma loves them
     very much.\nLove, Deborah\u201D"
@@ -18794,6 +18864,7 @@ Transform:
   - {fileID: 2074902757}
   - {fileID: 1253344950}
   - {fileID: 617367993}
+  - {fileID: 144612829}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &633139508
@@ -27411,6 +27482,100 @@ MonoBehaviour:
   objectToActivate: {fileID: 274986747}
   objectToActivate1: {fileID: 1869014660}
   objectToActivate2: {fileID: 732694229}
+--- !u!1001 &878450206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 626742415}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 101.69714
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 101.69714
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 101.69715
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.129
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.121
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.771
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99776316
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06684901
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -7.666
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 20571a9b72db5fe4b9ee8c88660c7988, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_Name
+      value: TirePuzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      propertyPath: m_TagString
+      value: Tire
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 144612831}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 144612830}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 144612835}
+  m_SourcePrefab: {fileID: 100100000, guid: 6b46b8412c1368e4eb4dafa090b785f7, type: 3}
 --- !u!1001 &878568929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37829,7 +37994,7 @@ RectTransform:
   m_GameObject: {fileID: 1517481431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.7112, y: 2.7112, z: 2.7112}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 768791919}
@@ -37861,8 +38026,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Thank you for playing!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9bb010067bc04594bb381e980a4b693e, type: 2}
+  m_sharedMaterial: {fileID: 5321928658667293117, guid: 9bb010067bc04594bb381e980a4b693e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37886,15 +38051,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 18.15
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
