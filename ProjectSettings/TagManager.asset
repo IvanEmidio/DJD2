@@ -8,6 +8,7 @@ TagManager:
   - Post1
   - Post3
   - Post2
+  - SteringWheel
   layers:
   - Default
   - TransparentFX
