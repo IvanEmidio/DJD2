@@ -7,12 +7,14 @@ public class LockManager : MonoBehaviour
     [SerializeField]private List<PickUpEnabler> _interactable;
     [SerializeField]private List<byte> _code = new List<byte>(4) {1, 2, 3, 4};
     [SerializeField]private GameObject _light;
+    [SerializeField]private GameObject _mainBody;
     [SerializeField]private ShaderModifierScript _shaderManager;
     [SerializeField] private List<ShaderModifierScript> _numberShaders;
     [SerializeField] private List<Number> _numbers;
     private AltCamera _camera;
     private Color _originalColor;
     private Renderer _renderer;
+    private bool _isOnIt;
     
     void Start()
     {
@@ -47,6 +49,7 @@ public class LockManager : MonoBehaviour
         {
             lever.NotNeon();
         }
+        _isOnIt = true;
 
 
         /* for (int i = 0; i < 4; i++)
@@ -67,6 +70,7 @@ public class LockManager : MonoBehaviour
             {
                 lever.Neon();
             }
+            _isOnIt = false;
             
         }
 
@@ -81,7 +85,7 @@ public class LockManager : MonoBehaviour
             }
         }
         
-        if(temp == 4 || Input.GetKeyDown(KeyCode.H)) //Se a variável temporária tiver a 4 então todos os números estão corretos
+        if(temp == 4 || (Input.GetKeyDown(KeyCode.H) && _isOnIt)) //Se a variável temporária tiver a 4 então todos os números estão corretos
         {
             for(int i = 0; i < _doors.Count; i++)
                 _doors[i].IsComplete();
@@ -92,6 +96,8 @@ public class LockManager : MonoBehaviour
             {
                 lever.NotNeon();
             }
+            _camera.DeactivateCamera();
+            _mainBody.SetActive(false);
         }
     }
 }
